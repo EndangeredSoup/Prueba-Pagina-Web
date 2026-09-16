@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compuestos Orgánicos Insaturados - Tarea Química</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        .selection\:bg-teal-200::selection { background-color: #99f6e4; }
+        .formula-box { font-family: 'Courier New', Courier, monospace; }
+    </style>
+</head>
+<body class="min-h-screen bg-slate-50 text-slate-800 font-sans selection:bg-teal-200">
+
+    <header class="bg-gradient-to-r from-teal-600 to-blue-700 text-white py-12 px-6 text-center shadow-md">
+        <div class="max-w-4xl mx-auto">
+            <div class="flex justify-center mb-4">
+                <i data-lucide="beaker" size="48" class="text-teal-200"></i>
+            </div>
+            <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-4">
+                Compuestos Orgánicos Insaturados
+            </h1>
+            <p class="text-lg md:text-xl text-teal-50 max-w-2xl mx-auto font-light">
+                Arquitectura molecular en acción: Propiedades y aplicaciones del <b>Propeno</b> (CH₃-CH=CH₂) y el <b>Propino</b> (CH₃-C≡CH).
+            </p>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-12 space-y-20">
+        
+        <section>
+            <div class="text-center mb-10">
+                <h2 class="text-3xl font-bold text-slate-800 mb-4 flex justify-center items-center gap-2">
+                    <i data-lucide="info" class="text-teal-600"></i>
+                    Propiedades Químicas
+                </h2>
+                <p class="text-slate-600 max-w-2xl mx-auto">
+                    Las diferencias en la estructura definen cómo reaccionan estas moléculas.
+                </p>
+            </div>
+
+            <div class="hidden md:flex relative justify-center items-center h-[500px] w-full max-w-5xl mx-auto my-8">
+                <div class="absolute left-[10%] top-0 w-[450px] h-[450px] bg-blue-400 rounded-full mix-blend-multiply opacity-20"></div>
+                <div class="absolute right-[10%] top-0 w-[450px] h-[450px] bg-emerald-400 rounded-full mix-blend-multiply opacity-20"></div>
+
+                <div class="absolute left-0 top-[10%] w-[270px] p-4 z-20">
+                    <div class="bg-blue-50/95 p-4 rounded-xl border border-blue-200 shadow-sm">
+                        <h3 class="font-bold text-xl text-blue-800 text-center border-b border-blue-200 pb-2 mb-2">Alquenos<br/><span class="text-sm font-normal text-blue-600">Ej: Propeno</span></h3>
+                        <ul class="text-sm text-blue-900 space-y-2">
+                            <li><b>Reacciones de Adición:</b> El enlace π es el punto de ataque.</li>
+                            <li><b>Regla de Markovnikov:</b> El H se une al carbono con más hidrógenos.</li>
+                            <li><b>Halogenación:</b> Añade X₂ a ambos carbonos.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="absolute right-0 top-[12%] w-[270px] p-4 z-20">
+                    <div class="bg-emerald-50/95 p-4 rounded-xl border border-emerald-200 shadow-sm">
+                        <h3 class="font-bold text-xl text-emerald-800 text-center border-b border-emerald-200 pb-2 mb-2">Alquinos<br/><span class="text-sm font-normal text-emerald-600">Ej: Propino</span></h3>
+                        <ul class="text-sm text-emerald-900 space-y-2">
+                            <li><b>Carácter Ácido:</b> Hidrógeno unido a carbono <i>sp</i>.</li>
+                            <li><b>Alta Electronegatividad:</b> Hace al H ligeramente ácido.</li>
+                            <li><b>Sales:</b> Generan alquinuros con bases fuertes.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-[60%] w-[240px] z-30 text-center">
+                    <div class="bg-white/95 p-4 rounded-xl shadow-lg border border-teal-200">
+                        <h3 class="font-bold text-lg text-teal-900 mb-2">Similitudes</h3>
+                        <ul class="text-xs text-teal-800 space-y-2 text-left list-disc pl-4">
+                            <li>Poseen enlaces π (pi).</li>
+                            <li>Compuestos insaturados.</li>
+                            <li>Ruptura de enlaces múltiples.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-slate-100 -mx-6 px-6 py-16 border-t border-slate-200">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-slate-800 mb-4">Aplicaciones en la Vida Diaria (Parte B)</h2>
+                    <p class="text-slate-600">Impacto y ecuaciones químicas de los procesos industriales.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col hover:shadow-xl transition-shadow border-t-4 border-blue-500">
+                        <div class="p-6">
+                            <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4 text-blue-600">
+                                <i data-lucide="heart-pulse"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-slate-800 mb-1">1. Hidratación del Propeno por Medio Ácido</h3>
+                            <p class="text-xs font-semibold text-blue-600 mb-4 uppercase tracking-wider">Antisépticos y Solventes</p>
+                            
+                            <div class="bg-slate-50 p-3 rounded-lg border border-slate-200 mb-4 overflow-x-auto formula-box text-sm">
+                                <code class="text-blue-700 whitespace-nowrap">CH₃-CH=CH₂ + H₂O [H₂SO₄]→ CH₃-CH(OH)-CH₃</code>
+                            </div>
+
+                            <p class="text-slate-600 text-sm leading-relaxed">
+                                Produce <b>Alcohol Isopropílico</b>. Es el antiséptico estándar para desinfección cutánea y un solvente de evaporación rápida para electrónica.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col hover:shadow-xl transition-shadow border-t-4 border-amber-500">
+                        <div class="p-6">
+                            <div class="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center mb-4 text-amber-600">
+                                <i data-lucide="utensils"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-slate-800 mb-1">2. Hidrogenación Catalítica de Alquenos</h3>
+                            <p class="text-xs font-semibold text-amber-600 mb-4 uppercase tracking-wider">Industria Alimentaria</p>
+                            
+                            <div class="bg-slate-50 p-3 rounded-lg border border-slate-200 mb-4 overflow-x-auto formula-box text-sm">
+                                <code class="text-amber-700 whitespace-nowrap">CH₃-CH=CH₂ + H₂ [Ni]→ CH₃-CH₂-CH₃</code>
+                            </div>
+
+                            <p class="text-slate-600 text-sm leading-relaxed">
+                                Fundamental para la creación de <b>margarinas</b>. Convierte aceites vegetales insaturados (líquidos) en grasas sólidas o semisólidas.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col hover:shadow-xl transition-shadow border-t-4 border-slate-700">
+                        <div class="p-6">
+                            <div class="w-12 h-12 bg-slate-200 rounded-full flex items-center justify-center mb-4 text-slate-700">
+                                <i data-lucide="factory"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-slate-800 mb-1">3. Halogenación del Propeno</h3>
+                            <p class="text-xs font-semibold text-slate-600 mb-4 uppercase tracking-wider">Producción de Plásticos</p>
+                            
+                            <div class="bg-slate-50 p-3 rounded-lg border border-slate-200 mb-4 overflow-x-auto formula-box text-sm">
+                                <code class="text-slate-700 whitespace-nowrap">CH₃-CH=CH₂ + Cl₂ → CH₃-CHCl-CH₂Cl</code>
+                            </div>
+
+                            <p class="text-slate-600 text-sm leading-relaxed">
+                                Genera precursores para el <b>PVC</b>. Este material es la base de la infraestructura moderna: tuberías, cables y equipos médicos.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col hover:shadow-xl transition-shadow border-t-4 border-cyan-500">
+                        <div class="p-6">
+                            <div class="w-12 h-12 bg-cyan-100 rounded-full flex items-center justify-center mb-4 text-cyan-600">
+                                <i data-lucide="snowflake"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-slate-800 mb-1">4. Oxidación con Permanganato</h3>
+                            <p class="text-xs font-semibold text-cyan-600 mb-4 uppercase tracking-wider">Glicoles y Anticongelantes</p>
+                            
+                            <div class="bg-slate-50 p-3 rounded-lg border border-slate-200 mb-4 overflow-x-auto formula-box text-sm">
+                                <code class="text-cyan-700 whitespace-nowrap">CH₃-CH=CH₂ [KMnO₄,H₂O]→ CH₃-CH(OH)-CH₂(OH)</code>
+                            </div>
+
+                            <p class="text-slate-600 text-sm leading-relaxed">
+                                Produce <b>Propilenglicol</b>. Se usa como humectante en pastelería y como anticongelante biodegradable en aviación y automoción.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-slate-800 text-slate-400 text-center py-8">
+        <p>VEGA QUIROZ, CAMILO - 11°B</p>
+        <p class="text-sm mt-2">TAREA 2, 3 Trimestre</p>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html
